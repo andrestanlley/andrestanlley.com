@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #121212;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #fff;
+}
+
+#presentation {
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), #121212),
+    url("/background.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  transition: all 1s ease-in;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+#rocket {
+  height: 2.5rem;
+  padding-left: 1rem;
+}
