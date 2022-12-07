@@ -4,10 +4,10 @@ import Box from "./Box";
 
 export default function Stacks() {
   return (
-    <div>
+    <div className="my-16">
       <div className="flex flex-col justify-center items-center text-3xl font-opensans text-slate-800 font-bold">
         minhas stacks
-        <span className="font-thin text-sm">bó fazer um projetin, pae?</span>
+        <span className="font-thin text-sm mb-4">bó fazer um projetin, pae?</span>
       </div>
       <div className="flex justify-center flex-wrap-reverse sm:flex-wrap gap-4">
         <Box
